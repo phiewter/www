@@ -1,0 +1,17 @@
+.button {
+  background-color: transparent;
+  color: var(--gray-900);
+  border: none;
+  padding: 8px;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  font-family: "Geist Mono", "Courier New";
+  font-size: 10px;
+  min-width: 48px;
+}
+
+.button:hover {
+  background-color: var(--gray-200);
+  color: var(--foreground);
+}

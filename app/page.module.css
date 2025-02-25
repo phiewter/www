@@ -9,7 +9,7 @@
 
 .header {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
   margin: 24px 0px;
 }
@@ -17,5 +17,6 @@
 .header h1 {
   font-size: 18px;
   line-height: 28px;
-  font-weight: 700;
+  font-weight: 600;
+  letter-spacing: -0.05em;
 }
