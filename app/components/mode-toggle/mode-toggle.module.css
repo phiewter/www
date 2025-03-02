@@ -1,3 +1,17 @@
 .mode-toggle {
   border: 1px solid var(--gray-400);
+  border-radius: 9999px;
+}
+
+.button {
+  display: inline-flex;
+  padding: 5px;
+  border: 1px solid var(--gray-400);
+  border-radius: 9999px;
+  background: transparent;
+}
+
+.icon {
+  height: 16px;
+  width: 16px;
 }
