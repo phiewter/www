@@ -63,6 +63,7 @@ ModeToggle.Button = ({ children, className, theme, onClick }) => {
 };
 ModeToggle.Button.displayName = "ModeToggleButton";
 
+// Pre-defined function [Derivative of <ModeToggle>]
 const _ModeToggle: React.FC = () => {
   return (
     <ModeToggle.Wrapper>
