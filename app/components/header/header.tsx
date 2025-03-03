@@ -1,7 +1,8 @@
 "use client";
 
 import * as React from "react";
-import { modeToggle } from "@/app/lib/data";
+
+import Link from "next/link";
 
 import styles from "@/app/components/header/header.module.css";
 
@@ -11,7 +12,12 @@ const Header: React.FC = () => {
   return (
     <header className={styles.header}>
       <h1>Pieter van Arend</h1>
-      <_ModeToggle />
+      <div className={styles.second}>
+        <Link href="https://github.com/phiewter" target="_blank">
+          GitHub
+        </Link>
+        <_ModeToggle />
+      </div>
     </header>
   );
 };
