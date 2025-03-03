@@ -1,14 +1,14 @@
-import styles from "@/app/page.module.css";
-
+import { Container } from "@/app/components/container/container";
 import { Header } from "@/app/components/header/header";
+import { Page } from "@/app//components/page/page";
 
 export default function Home() {
   return (
-    <div className={styles.page}>
-      <div className={styles.container}>
+    <Page>
+      <Container>
         <Header />
         <main></main>
-      </div>
-    </div>
+      </Container>
+    </Page>
   );
 }

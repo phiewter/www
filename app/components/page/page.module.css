@@ -1,8 +1,3 @@
 .page {
   min-height: calc(100vh - var(--margin-header-height));
 }
-
-.container {
-  max-width: 624px;
-  margin: 0 auto;
-}
