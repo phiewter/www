@@ -1,0 +1,38 @@
+.feature-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+}
+
+.image-wrapper {
+  padding-right: 8px;
+}
+
+.image {
+  border-radius: 8px;
+}
+
+.divider {
+  border-right: 1px solid var(--gray-400);
+}
+
+.text-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 2px;
+}
+
+.title {
+  font-size: 16px;
+  color: var(--foreground);
+  letter-spacing: -0.01em;
+  font-weight: 500;
+}
+
+.description {
+  font-size: 12px;
+  color: var(--gray-900);
+  letter-spacing: -0.01em;
+}
