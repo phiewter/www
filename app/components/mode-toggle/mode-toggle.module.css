@@ -12,14 +12,14 @@
 }
 
 .icon {
-  height: 12px;
-  width: 12px;
+  height: 14px;
+  width: 14px;
 }
 
 @media screen and (max-width: 400px) {
   .icon {
-    height: 12px;
-    width: 12px;
+    height: 14px;
+    width: 14px;
   }
 }
 
@@ -28,21 +28,21 @@
 
 @media screen and (min-width: 601px) and (max-width: 768px) {
   .icon {
-    height: 14px;
-    width: 14px;
+    height: 16px;
+    width: 16px;
   }
 }
 
 @media screen and (min-width: 769px) and (max-width: 960px) {
   .icon {
-    height: 14px;
-    width: 14px;
+    height: 16px;
+    width: 16px;
   }
 }
 
 @media screen and (min-width: 961px) {
   .icon {
-    height: 14px;
-    width: 14px;
+    height: 16px;
+    width: 16px;
   }
 }
