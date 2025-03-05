@@ -1,6 +1,10 @@
 import { Metadata } from "next";
 
+import { blocks } from "@/app/lib/data";
+
+import { Block } from "@/app/components/block/block";
 import { Container } from "@/app/components/container/container";
+import { _FeatureCard } from "@/app/components/feature-card/feature-card";
 import { Header } from "@/app/components/header/header";
 import { Page } from "@/app//components/page/page";
 

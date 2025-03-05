@@ -30,8 +30,8 @@ FeatureCard.Image = ({ src, alt }) => {
   return (
     <Image
       className={styles.image}
-      width={64}
-      height={64}
+      width={56}
+      height={56}
       src={src}
       alt={alt}
     />
@@ -69,5 +69,4 @@ const _FeatureCard: React.FC = () => {
     </FeatureCard>
   );
 };
-
 export { _FeatureCard };

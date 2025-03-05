@@ -18,4 +18,10 @@ const modeToggle = [
   },
 ];
 
-export { modeToggle };
+const blocks = [
+  {
+    title: "Projects",
+  },
+];
+
+export { modeToggle, blocks };
