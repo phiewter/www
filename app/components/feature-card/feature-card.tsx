@@ -8,6 +8,8 @@ import Image from "next/image";
 
 import styles from "@/app/components/feature-card/feature-card.module.css";
 
+import { sideQuests } from "@/app/lib/data";
+
 interface FeatureCardProps {
   children: React.ReactNode;
 }
@@ -29,6 +31,7 @@ interface FeatureCardImageProps {
 FeatureCard.Image = ({ src, alt }) => {
   return (
     <Image
+      priority
       className={styles.image}
       width={56}
       height={56}
@@ -60,13 +63,19 @@ FeatureCard.Description.displayName = "FeatureCardDescription";
 // Pre-defined function [Derivative of <FeatureCard>]
 const _FeatureCard: React.FC = () => {
   return (
-    <FeatureCard>
-      <FeatureCard.Image src="/avatar.jpg" alt="GitHub Avatar" />
-      <div className={styles["text-wrapper"]}>
-        <FeatureCard.Title>This is a test title.</FeatureCard.Title>
-        <FeatureCard.Description>Description</FeatureCard.Description>
-      </div>
-    </FeatureCard>
+    <>
+      {sideQuests.map((item) => (
+        <FeatureCard key={item.title}>
+          <item.src />
+          <div className={styles["text-wrapper"]}>
+            <FeatureCard.Title>{item.title}</FeatureCard.Title>
+            <FeatureCard.Description>
+              {item.description}
+            </FeatureCard.Description>
+          </div>
+        </FeatureCard>
+      ))}
+    </>
   );
 };
 export { _FeatureCard };

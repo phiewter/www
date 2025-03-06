@@ -19,7 +19,14 @@ export default function Home() {
     <Page>
       <Container>
         <Header />
-        <main></main>
+        <main>
+          {blocks.map((item) => (
+            <Block key={item.title}>
+              <h1>{item.title}</h1>
+              <_FeatureCard />
+            </Block>
+          ))}
+        </main>
       </Container>
     </Page>
   );
