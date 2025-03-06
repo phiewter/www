@@ -21,6 +21,7 @@ export const Icons = {
       strokeLinejoin="round"
       style={{ width: "48px", height: "48px", color: "currentcolor" }}
       viewBox="0 0 16 16"
+      {...props}
     >
       <path
         fillRule="evenodd"

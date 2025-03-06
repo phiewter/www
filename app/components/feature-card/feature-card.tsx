@@ -66,7 +66,7 @@ const _FeatureCard: React.FC = () => {
     <>
       {sideQuests.map((item) => (
         <FeatureCard key={item.title}>
-          <item.src />
+          <item.src aria-label={item.title} />
           <div className={styles["text-wrapper"]}>
             <FeatureCard.Title>{item.title}</FeatureCard.Title>
             <FeatureCard.Description>
