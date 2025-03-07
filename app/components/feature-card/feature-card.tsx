@@ -8,7 +8,7 @@ import Image from "next/image";
 
 import styles from "@/app/components/feature-card/feature-card.module.css";
 
-import { sideQuests } from "@/app/lib/data";
+import { satelliteProjects } from "@/app/lib/data";
 
 interface FeatureCardProps {
   children: React.ReactNode;
@@ -64,7 +64,7 @@ FeatureCard.Description.displayName = "FeatureCardDescription";
 const _FeatureCard: React.FC = () => {
   return (
     <>
-      {sideQuests.map((item) => (
+      {satelliteProjects.map((item) => (
         <FeatureCard key={item.title}>
           <item.src aria-label={item.title} />
           <div className={styles["text-wrapper"]}>

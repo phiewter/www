@@ -21,11 +21,11 @@ const modeToggle = [
 
 const blocks = [
   {
-    title: "Side quests",
+    title: "Satellite Projects",
   },
 ];
 
-const sideQuests: {
+const satelliteProjects: {
   title: string;
   description: string;
   src: React.ComponentType<React.SVGProps<SVGSVGElement>>;
@@ -40,4 +40,4 @@ const sideQuests: {
   },
 ];
 
-export { modeToggle, blocks, sideQuests };
+export { modeToggle, blocks, satelliteProjects };
