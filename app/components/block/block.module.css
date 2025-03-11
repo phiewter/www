@@ -1,12 +1,12 @@
 .block {
-  margin: var(--margin-header-height) 0px calc(var(--margin-header-height) * 1.5) 0px;
+  margin: var(--margin-header-height) 0px calc(var(--margin-header-height) * 2) 0px;
 }
 
 .block h1 {
   font-size: 20px;
   letter-spacing: -0.01em;
   font-weight: 600;
-  margin: var(--margin-header-height) 0px calc(var(--margin-header-height) / 1.5) 0px;
+  margin: var(--margin-header-height) 0px calc(var(--margin-header-height) / 2) 0px;
 }
 
 .block p {

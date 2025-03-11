@@ -16,7 +16,7 @@
   --foreground: var(--gray-1000);
   --background: var(--background-100);
 
-  --margin-header-height: 28px;
+  --margin-header-height: 2rem;
 }
 
 .dark {
