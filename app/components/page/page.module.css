@@ -1,16 +1,12 @@
-.page {
-  margin: 0px calc(var(--margin-header-height) / 2);
-}
-
 @media screen and (max-width: 400px) {
   .page {
-    margin: 0px calc(var(--margin-header-height) / 2);
+    margin: 0px calc(var(--margin-header-height) / 1.25);
   }
 }
 
 @media screen and (min-width: 400px) and (max-width: 600px) {
   .page {
-    margin: 0px calc(var(--margin-header-height) / 2);
+    margin: 0px calc(var(--margin-header-height) / 1.25);
   }
 }
 

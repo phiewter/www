@@ -2,7 +2,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: calc(var(--margin-header-height)) 0px;
+  margin: calc(var(--margin-header-height) / 2) 0px;
+  padding-bottom: var(--margin-header-height);
+  border-bottom: 1px solid var(--gray-400);
 }
 
 .header h1 {
@@ -31,6 +33,7 @@
 @media screen and (max-width: 400px) {
   .header {
     margin: calc(var(--margin-header-height) / 2) 0px;
+    padding-bottom: calc(var(--margin-header-height) / 2);
   }
 
   .header h1 {
@@ -45,6 +48,7 @@
 @media screen and (min-width: 400px) and (max-width: 600px) {
   .header {
     margin: calc(var(--margin-header-height) / 2) 0px;
+    padding-bottom: calc(var(--margin-header-height) / 2);
   }
 
   .header h1 {
@@ -59,6 +63,7 @@
 @media screen and (min-width: 600px) and (max-width: 768px) {
   .header {
     margin: var(--margin-header-height) 0px;
+    padding-bottom: var(--margin-header-height);
   }
 
   .header h1 {
@@ -73,6 +78,7 @@
 @media screen and (min-width: 768px) and (max-width: 960px) {
   .header {
     margin: var(--margin-header-height) 0px;
+    padding-bottom: var(--margin-header-height);
   }
 
   .header h1 {
@@ -87,6 +93,7 @@
 @media screen and (min-width: 960px) {
   .header {
     margin: var(--margin-header-height) 0px;
+    padding-bottom: var(--margin-header-height);
   }
 
   .header h1 {
