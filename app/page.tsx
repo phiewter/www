@@ -22,7 +22,6 @@ export default function Home() {
         <main>
           {blocks.map((item) => (
             <Block key={item.title}>
-              <h1>{item.title}</h1>
               <_FeatureCard />
             </Block>
           ))}

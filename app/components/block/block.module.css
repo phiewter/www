@@ -1,15 +1,41 @@
 .block {
-  margin: var(--margin-header-height) 0px calc(var(--margin-header-height) * 2) 0px;
+  margin: calc(var(--margin-header-height) / 2) 0px;
 }
 
 .block h1 {
   font-size: 20px;
   letter-spacing: -0.01em;
   font-weight: 600;
-  margin: var(--margin-header-height) 0px calc(var(--margin-header-height) / 2) 0px;
+  margin: calc(var(--margin-header-height)) 0px
+    calc(var(--margin-header-height) / 2) 0px;
 }
 
-.block p {
-  font-size: 14px;
-  color: var(--gray-900);
+@media screen and (max-width: 400px) {
+  .block {
+    margin: calc(var(--margin-header-height) / 2) 0px;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 600px) {
+  .block {
+    margin: calc(var(--margin-header-height) / 2) 0px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+  .block {
+    margin: var(--margin-header-height) 0px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 960px) {
+  .block {
+    margin: var(--margin-header-height) 0px;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .block {
+    margin: var(--margin-header-height) 0px;
+  }
 }
